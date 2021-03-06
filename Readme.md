@@ -3,6 +3,14 @@
 
 
 # SDK API consumo de descargaSAT
+Este repositorio incluye en el SDK en PHP y ejemplos para el consumo de endpoints del API REST de descargaSAT
+
+[DescargaSAT](https://descargasat.sifei.com.mx/)
+
+[Sifei](https://www.sifei.com.mx/) 
+
+[Manual de API](https://www.sifei.com.mx/slides/slide/manual-api-aci-descargasat-128) 
+
 
 Se requiere como mínimo PHP  5.6 
 Testeado en php 5.6 y superior (7+)
@@ -14,11 +22,7 @@ Testeado en php 5.6 y superior (7+)
 
 
 
-Este repositorio incluye en el SDK en PHP y ejemplos para el consumo de endpoints del API REST de descargaSAT
 
-[DescargaSAT](https://descargasat.sifei.com.mx/)
-
-[Sifei](https://www.sifei.com.mx/) 
 
 # Conectate rápidamente
 
