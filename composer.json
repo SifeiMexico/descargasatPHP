@@ -1,0 +1,21 @@
+{
+    "name": "sifei/sdk-descarga-sat",
+    "description": "SDK para descargaSAT ",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Daniel Hernandez",
+            "email": "daniel.hernandez@sifei.com.mx"
+        },
+        {
+            "name": "Daniel Hernandez FCO",
+            "email": "daniel.hernandez.job@gmail.com"
+        }
+    ],
+    "autoload":{
+		"psr-4":{
+			"DHF\\Sifei\\DescargaSAT\\SDK\\":"Sifei/DescargaSAT/SDK"
+		}
+	},
+    "require": {}
+}

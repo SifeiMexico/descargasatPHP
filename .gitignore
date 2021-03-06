@@ -1,0 +1,10 @@
+vendor/
+format.json
+*.zip
+tmp/
+private/
+config_app_test.php
+old/
+*.sh
+*.back
+.vscode/
