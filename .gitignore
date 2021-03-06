@@ -8,3 +8,4 @@ old/
 *.sh
 *.back
 .vscode/
+testComposer/

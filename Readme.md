@@ -9,6 +9,8 @@ Este repositorio incluye en el SDK en PHP y ejemplos para el consumo de endpoint
 
 [Sifei](https://www.sifei.com.mx/) 
 
+Para mayor infomación:
+
 [Manual de API](https://www.sifei.com.mx/slides/slide/manual-api-aci-descargasat-128) 
 
 
@@ -16,7 +18,10 @@ Se requiere como mínimo PHP  5.6
 Testeado en php 5.6 y superior (7+)
 
 - Es necesario tener habilitada la extension CURL para poder ejecutar las peticiones.
-- Se incluye un autoloader y un archivo autoload_namespaces.php para la resolucion de espacios de nombre a archivos php por lo que debera importarse el archivo dhf_autoload_.php en en punto de entrada de ejecucion de php.
+- Se incluye un autoloader y un archivo autoload_namespaces.php para la resolucion de espacios solo en caso de no usar composer y descargar este proyecto directemnete, para usarlo debera importarse el archivo dhf_autoload_.php en en punto de entrada de ejecucion de php.
+- Composer, puedes integrar facilmente este proyecto via composer como dependencia.
+
+
 
 
 
@@ -26,9 +31,21 @@ Testeado en php 5.6 y superior (7+)
 
 # Conectate rápidamente
 
+
+
+Instalar cliente
+Para instalar el cliente solo debes instalarlo via composer:
+
+```shell
+ composer require sifei/sdk-descarga-sat
+```
+
 La clase principal es DescargaSATSDK, solo 1) instancia un objeto apartir de ella, 2) establece el token y 3)  coloca la URL (por defecto apunta a producción).
 
 ```php
+
+require "./vendor/autoload.php"; #via composer
+
 $sdk = new DescargaSATSDK();
 //establecemos el token
 $sdk->setToken(self::$token);
